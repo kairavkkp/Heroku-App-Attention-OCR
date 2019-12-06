@@ -1,8 +1,11 @@
 tensorflow==1.14.0
+Cython
 pillow
-Flask
-Werkzeug==0.15.5
 numpy
 matplotlib
+Flask
+Werkzeug==0.15.5
 gunicorn==19.9.0
+
+
 
