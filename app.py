@@ -1,6 +1,6 @@
 import os
 import numpy as np
-import glob,cv2
+import glob
 import sys,argparse
 import tensorflow as tf
 from tensorflow.python.framework import graph_util
