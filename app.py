@@ -69,7 +69,7 @@ def demo():
     <div class="site-wrapper">
         <div class="cover-container">
             <nav id="main">
-                <a href="http://localhost:5000/demo" >HOME</a>
+                
             </nav>
           <div class="inner cover">
           </div>
