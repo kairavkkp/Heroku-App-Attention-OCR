@@ -68,9 +68,7 @@ def demo():
     <body>
     <div class="site-wrapper">
         <div class="cover-container">
-            <nav id="main">
-                
-            </nav>
+            
           <div class="inner cover">
           </div>
           <div class="mastfoot">
