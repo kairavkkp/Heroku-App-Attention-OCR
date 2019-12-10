@@ -19,21 +19,12 @@ UPLOAD_FOLDER='static'
 
 
 def load_graph(frozen_graph_filename):
-    #with tf.gfile.GFile(frozen_graph_filename,"rb") as f:
-    #    restored_graph_def = tf.GraphDef()
-    #    restored_graph_def.ParseFromString(f.read())
-
-    #with tf.Graph().as_default() as graph:
-    #    tf.import_graph_def(restored_graph_def,
-    #                       input_map=None,
-    #                       return_elements=None,
-    #                       name='')
     graph = tf.Graph()
     graphDef = tf.GraphDef()
     with open(frozen_graph_filename,"rb") as graphFile:
-         graphDef.ParseFromString(graphFile.read())
+        graphDef.ParseFromString(graphFile.read())
     with graph.as_default():
-	 tf.import_graph_def(graphDef)
+        tf.import_graph_def(graphDef)
     return graph
 
 
@@ -73,7 +64,6 @@ def demo():
     <body>
     <div class="site-wrapper">
         <div class="cover-container">
-
           <div class="inner cover">
           </div>
           <div class="mastfoot">
@@ -93,8 +83,6 @@ def demo():
    </div>
 </body>
 </html>
-
-
     '''
 
 
