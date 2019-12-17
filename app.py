@@ -33,7 +33,7 @@ def getImage(path):
         img = img_file.read()
     return img
 
-graph = load_graph('manually_frozen_graph_1.14.pb')
+graph = load_graph('manually_frozen_graph.pb')
 
 @app.route('/',methods=['POST','GET'])
 def demo():
