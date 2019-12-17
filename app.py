@@ -2,7 +2,8 @@ import os
 import numpy as np
 import glob
 import sys,argparse
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from tensorflow.python.framework import graph_util
 import flask
 from flask import render_template, send_from_directory, request
